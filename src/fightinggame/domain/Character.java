@@ -3,7 +3,7 @@ package fightinggame.domain;
 public class Character {
      String name;
      int hp;
-     int maxhp;
+     public int maxhp;
      int attack;
      int defense;
 
@@ -11,7 +11,7 @@ public class Character {
         this.attack = attack;
         this.defense = defense;
         this.hp = hp;
-        this.maxhp = maxhp;
+        this.maxhp = hp;
         this.name = name;
     }
 
